@@ -1,0 +1,43 @@
+<!DOCTYPE html>  <!-- Deklaracja języka HTML 5 -->
+<html lang="pl"> <!-- Język strony -->
+
+  <head>
+
+     <meta charset="utf-8"> <!-- Kodowanie strony -->
+     <title>Moja witryna</title> <!-- Tytuł strony -->
+
+     <meta name="description" content="Opis zawartości strony dla wyszukiwarek"> <!-- Opis strony -->
+     <meta name="keywords" content="słowa, kluczowe, opisujące, zawartość"> <!-- Słowa kluczowe -->
+     <meta name="author" content="....."> <!-- Autor strony -->
+
+     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1"> <!-- Prawidłowe otwieranie w IE -->
+     <link rel="stylesheet" href="arkusz.css"> <!-- Hiperłącze do CSS -->
+     <script src="skrypt.js"></script> <!-- Podpięcie Js do dokumentu HTML -->
+
+  </head>
+  <body>
+    <div id="container">
+        <div id="podaj">
+            <input type="text" id="imie" name="imie" placeholder="Wpisz imię">
+            <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz nazwisko">
+            <input type="submit" id="guzik" name="guzik" value="Sprawdź!" onclick="sprawdz()">
+        </div>
+        <div id="dane">
+            <center>
+            <div id="wyswietl">
+                <center><h3>Twoje dane:</h3><br><br>
+                <input type="text" id="inicjaly" name="inicjaly" placeholder="Inicjały" class="kolorek" readonly>
+                <br><br><br><br>
+                <input type="text" id="imie1" name="imie1" placeholder="Imię" class="kolorek" readonly>
+                <input type="text" id="nazwisko1" name="nazwisko1" placeholder="Nazwisko" class="kolorek" readonly>
+                <br><br><br><br>
+                <input type="text" id="plec" name="plec" placeholder="Płeć" class="kolorek" readonly>
+                <br><br>
+                </center>
+            </div>
+            </center>
+        </div>
+    </div>
+  </body>
+
+</html>
